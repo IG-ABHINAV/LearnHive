@@ -1,32 +1,35 @@
-# StudyNotion Ed-Tech Platform
+# LearnHive Ed-Tech Platform
 
-StudyNotion is a versatile and intuitive ed-tech platform that enables users to create, consume, and rate educational content. It provides a seamless and interactive learning experience for students while offering a platform for instructors to showcase their expertise and connect with learners worldwide. The platform is built using the MERN stack, which includes ReactJS, NodeJS, MongoDB, and ExpressJS.
+LearnHive is a versatile and intuitive ed-tech platform that enables users to create, consume, and rate educational content. It provides a seamless and interactive learning experience for students while offering a platform for instructors to showcase their expertise and connect with learners worldwide. The platform is built using the MERN stack, which includes ReactJS, NodeJS, MongoDB, and ExpressJS.
 
 ## Table of Contents
 
-- [System Architecture](#system-architecture)
-- [Front-end](#front-end)
-- [Back-end](#back-end)
-- [API Design](#api-design)
-- [Deployment](#deployment)
+- [LearnHive Ed-Tech Platform](#learnhive-ed-tech-platform)
+  - [Table of Contents](#table-of-contents)
+  - [System Architecture](#system-architecture)
+  - [Front-end](#front-end)
+  - [Back-end](#back-end)
+    - [Data Models and Database Schema](#data-models-and-database-schema)
+  - [API Design](#api-design)
+  - [Deployment](#deployment)
 
 ---
 
 ## System Architecture
 
-The StudyNotion ed-tech platform follows a client-server architecture with the following main components:
+The LearnHive ed-tech platform follows a client-server architecture with the following main components:
 
 - **Front-end**: Built with ReactJS, it communicates with the back end using RESTful API calls.
 - **Back-end**: Developed with NodeJS and ExpressJS, it handles user authentication, course management, and more.
 - **Database**: Utilizes MongoDB as a NoSQL database to store course content, user data, and other relevant information.
 
-![System Architecture Diagram](https://github.com/yashsarode45/StudyNotion-Mega-Project/assets/65209607/3a154827-641d-4269-b662-203afcfd7654)
+![System Architecture Diagram](https://github.com/yashsarode45/LearnHive-Mega-Project/assets/65209607/3a154827-641d-4269-b662-203afcfd7654)
 
 ---
 
 ## Front-end
 
-The front end of StudyNotion is built with ReactJS, offering a dynamic and responsive user interface for students and instructors. Here are some key pages and functionalities:
+The front end of LearnHive is built with ReactJS, offering a dynamic and responsive user interface for students and instructors. Here are some key pages and functionalities:
 
 **For Students:**
 
@@ -50,15 +53,15 @@ Front-end tools and technologies include ReactJS, CSS, Tailwind CSS, Redux for s
 Additionally, we use some npm packages to add extra functionality to the front end.
 
 [View Live Demo](https://study-notion-mega-project-frontend.vercel.app/)
-![studynotion1](https://github.com/yashsarode45/StudyNotion-Mega-Project/assets/65209607/ad992ea3-e257-404a-9d40-83183f7edfd3)
-![studynotion2](https://github.com/yashsarode45/StudyNotion-Mega-Project/assets/65209607/87089177-e065-4b8a-8515-3af8e3aed4db)
+![LearnHive1](https://github.com/yashsarode45/LearnHive-Mega-Project/assets/65209607/ad992ea3-e257-404a-9d40-83183f7edfd3)
+![LearnHive2](https://github.com/yashsarode45/LearnHive-Mega-Project/assets/65209607/87089177-e065-4b8a-8515-3af8e3aed4db)
 
 
 ---
 
 ## Back-end
 
-The back end of StudyNotion is built with NodeJS and ExpressJS and uses MongoDB as its primary database. Key features and functionalities include:
+The back end of LearnHive is built with NodeJS and ExpressJS and uses MongoDB as its primary database. Key features and functionalities include:
 
 - **User Authentication and Authorization**: Secure login, OTP verification, and forgot password functionality.
 - **Course Management**: Instructors can create, update, delete courses, and students can view and rate them.
@@ -78,7 +81,7 @@ The back end of StudyNotion is built with NodeJS and ExpressJS and uses MongoDB 
 
 ## API Design
 
-StudyNotion's API follows the REST architectural style, implemented using Node.js and Express.js. It uses JSON for data exchange and standard HTTP request methods. Sample API endpoints include:
+LearnHive's API follows the REST architectural style, implemented using Node.js and Express.js. It uses JSON for data exchange and standard HTTP request methods. Sample API endpoints include:
 
 - `POST /api/auth/signup`: Create a new user account.
 - `POST /api/auth/login`: Log in and generate a JWT token.
@@ -109,7 +112,7 @@ Sample API requests and responses:
 
 ## Deployment
 
-StudyNotion is deployed on various cloud-based services:
+LearnHive is deployed on various cloud-based services:
 
 - Front-end: Vercel for static site hosting.
 - Back-end: Render or Railway for Node.js and MongoDB hosting.
@@ -120,6 +123,6 @@ This infrastructure ensures scalability, security, and reliability.
 
 ---
 
-Thank you for using StudyNotion!
+Thank you for using LearnHive!
 
 
